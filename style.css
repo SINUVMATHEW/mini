@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+}
+
+.container{ 
+    width: 100;
+    min-width: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hiddern;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+.menu_icon{
+    width:25px;
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+
+}
+nav ul li a:hover{
+    color: rgb(67, 0, 250);
+}
+
+.main_img img{
+    width: 65%;
+    height: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+    padding-top: 120px;
+  
+}
+.main_cont{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 130px;
+
+}
+section{
+    height: 100vh; 
+}
+
+body{
+    background: linear-gradient(#000000,#0f0f0f);
+}
+.quote{
+    padding-left: 300px ;
+}
+    
+
+/* .book a{
+
+  
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 12rem;
+     display: flex;
+    flex-direction: column;
+    padding-top: 110px;
+} */
+
+.button {
+    border: 2px solid black;
+    background-color:transparent;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 40px;
+    margin-left: 12rem;
+    
+
+  }
+    
+
+  
+/*body{
+    
+    
+    background: #111111;
+    box-shadow: 0px 4px 50px #000000;
+    border-radius: 15px;
+}
+
+.nav_items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+    
+    position: absolute;
+    width: 567px;
+    height: 39px;
+    left: 364px;
+    top: 30px;
+}
+
+.logo{
+    position: absolute;
+    width: 207px;
+    height: 81px;
+    left: 74px;
+    top: 27px;
+}
+*/
